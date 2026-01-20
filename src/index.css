@@ -1,0 +1,218 @@
+/* :root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
+
+/* .box{
+  height:200px;
+  width:200px;
+  background-color: yellow;
+  transition:transform 1s ;
+}
+
+.box.active{
+  transform: scale(1.5);
+  background-color: red;
+}*/
+
+ /* .box{
+ height: 300px;
+ width: 300px;
+  background-color:blueviolet ;
+} 
+
+.fade-enter{
+  opacity: 1;
+}
+
+.fade-enter-active{
+  opacity: 0;
+  transition:opacity 300ms ease-in;
+ 
+}
+
+.fade-exit{
+  opacity:0;
+ background-color: blueviolet; 
+  transform: scale(1.5);
+}
+
+.fade-exit-active{
+  opacity:1;
+ transition:opacity 300ms ease-in;
+} */
+
+/* .box{
+  margin-top: 20px;
+  padding:20px;
+  background-color: yellow;
+  width:200px;
+  height:200px;
+  text-align: center;
+  display:flex;
+}
+
+.fade-enter{
+  opacity:0;
+  transform: scale(0.9);
+}
+
+.fade-enter-active{
+  opacity:1;
+  transform: scale(1.5);
+  transition:opacity 400ms, transform 400ms;
+}
+
+.fade-exit{
+  opacity: 1;
+  transform: scale(1.5);
+}
+
+.fade-exit-active{
+  opacity:0;
+  transform:scale(0.9);
+  transition: opacity 400ms,transform 400ms;
+} */
+
+/* .box{
+  width:300px;
+  height:300px;
+  background-color: orange;
+  opacity:0;
+  transition:opacity 0.5s ease;
+}
+
+.box.show{
+  opacity:1
+} */
+
+/* .animated{
+  background-color: blue;
+  height:300px;
+  width:300px;
+  border-radius:50%;
+  border:8px solid grey;
+  border-top: 10px solid rgb(8, 51, 77);
+  animation:loader 1s ease-in-out 10 alternate-reverse;
+  animation: fade 3s ease-in;
+}
+
+@keyframes loader{
+ 
+  to{
+    transform: rotate(360deg);
+  }
+} */
+
+/* .panel{
+transform: translateX(-400px);
+background-color: blue;
+animation: open 3s ease-in;
+/* transition: transform 0.4s ease,backgroundColor 5s ease-in; 
+}
+/* 
+@keyframes open{
+  to{
+    transform: scale(1.5);
+    background-color: blueviolet;
+  }
+}
+
+.panel.open{
+transform: translateX(0);
+background-color: brown;
+} */
+
+
+
+
+
+
+
+/* @keyframes fade{
+  from{
+    opacity:1;
+    transform: translateY(30px);
+  }
+  to{
+opacity:0;
+  transform: translateY(0px);
+  }
+} */
+
+
+.navtab{
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: blanchedalmond;
+}
+
+a {
+text-decoration: none;
+  color: blanchedalmond !important;
+}
