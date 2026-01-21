@@ -17,7 +17,7 @@ const client=new ApolloClient({
 })
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-  <BrowserRouter>
+  <BrowserRouter basename="/projectcard">
   <ApolloProvider client={client}>
     <App/>
     </ApolloProvider>
