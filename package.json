@@ -1,7 +1,7 @@
 {
   "name": "app",
   "private": true,
-  "homepage": "https://rukhaiya777.github.io/projectcard/",
+  "homepage": "https://rukhaiya777-oss.github.io/projectcard/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
